@@ -2,6 +2,8 @@ import tkinter as tk
 import requests
 
 url = "https://api.weather.gov/points/39.7456,-97.0892"
+local_host = "127.0.0.1:3306"
+port = "3306"
 
 def main():
     print("Python Running...")
