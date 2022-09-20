@@ -11,8 +11,7 @@ def main():
     print(response.json())
 
     window = tk.Tk()
-    voo_value = "ABC.XX"
-    voo_value_label = tk.Label(text="Value of VOO: " + voo_value)
+    voo_value_label = tk.Label(text="Value of VOO: " + str(response.json()))
     voo_value_label.pack()
     window.mainloop()
 
