@@ -1,14 +1,13 @@
 import tkinter as tk
 import requests
 
-url = "https://api.weather.gov/points/39.7456,-97.0892"
-local_host = "127.0.0.1:3306"
-port = "3306"
+local_host = "http://127.0.0.1"
+port = "3000"
 
 def main():
     print("Python Running...")
 
-    response = requests.get(url)
+    response = requests.get(local_host + ":" + port)
     print(response.json())
 
     window = tk.Tk()
