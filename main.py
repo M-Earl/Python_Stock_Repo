@@ -12,7 +12,7 @@ def main():
 
     window = tk.Tk()
     voo_value_label = tk.Label(text="Value of VOO: " + str(response.json()))
-    voo_value_label.pack()
+    voo_value_label.pack(padx = 10, pady = 10)
     window.mainloop()
 
 if __name__ == "__main__":
