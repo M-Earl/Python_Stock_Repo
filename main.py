@@ -1,8 +1,8 @@
 import tkinter as tk
 import requests
 
-local_host = "http://127.0.0.1"
-port = "3000"
+LOCAL_HOST = "http://127.0.0.1"
+PORT = "3000"
 
 def main():
     print("Python Running...")
